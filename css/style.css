@@ -148,13 +148,6 @@ text-align: center;
 
 }
 
-.textBox__main {
-
-	position: relative;
-	left: 35%;
-	width: 60rem;
-
-}
 
 .contentLeft {
 
@@ -193,6 +186,7 @@ form ul li {
 	font-family: 'Open Sans',sans-serif;
 	font-size: 1.4rem;
 	padding: 1rem 1rem;
+	list-style: none;
 }
 
 label	{
@@ -219,7 +213,6 @@ label	{
 	list-style: none;
 	padding: 1em 0;
 }
-
 
 
 .roundCorner {
@@ -289,6 +282,19 @@ label	{
 
 	font-size: 1.5rem;
 
+}
+
+#buttonsTable {
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+
+}
+
+.hb1 {
+
+	height: 4em ;
 }
 
 footer	{
